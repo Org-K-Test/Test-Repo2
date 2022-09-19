@@ -48,7 +48,7 @@ steps:
       branch: feature/*
       event: push
 
-  - name: build-test-image
+  - name: build-test-images
     image: plugins/docker
     settings:
       repo: allovince/drone-ci-demo
