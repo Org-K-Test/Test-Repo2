@@ -12,19 +12,19 @@ jobs:
     docker:
      - image: cimg/base:2022.05
     steps:
-      - run: echo "Say hello to YAML!"
+      - run: New Stage One"
 
   Imput_3:
     docker:
      - image: cimg/base:2022.05
     steps:
-      - run: echo "Say hello to YAML!"
+      - run: Step2"
 
   Imput_4:
     docker:
      - image: cimg/base:2022.05
     steps:
-      - run: echo "Say Hello to YAML!"
+      - run: Step3"
 
   Imput_5:
     docker:
